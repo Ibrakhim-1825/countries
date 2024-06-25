@@ -46,9 +46,9 @@
                 <div class="flex items-center justify-between">
                     <input type="text" class="p-3 rounded-[40px] border-[1px] w-[250px] border-slate-500"
                         placeholder="Searching ....">
+                    <select class ="p-3 rounded-[30px] border-[1px] w-[250px] border-slate-500 cursor-pointer">
 
-                     <select  class= "p-3 rounded-[30px] border -[1px] w- [250px] border-slate-500 cursor-pointer">
-                        <option>All</option>
+                        <option>Countries</option>
                         <option value="Wallis and Futuna">Wallis and Futuna</option>
                         <option value="Iceland">Iceland</option>
                         <option value="Luxembourg">Luxembourg</option>
@@ -62,6 +62,14 @@
                     </select>
                 </div>
                 <ul class="country-list flex flex-wrap gap-10 mt-10 ml-auto mr-auto"></ul>
+            </div>
+            <div class="like_basket hidden">
+                <a class="like" href="#">
+                    <img src="./img/like.svg" alt="like">
+                </a>
+                <a href="#" class="basket">
+                    <img src="./img/basket.svg" alt="basket">
+                </a>
             </div>
         </section>
     </main>

@@ -16,3 +16,7 @@ input::placeholder{
 body{
   background-color: slate;
 }
+
+.like{
+  background-image: url("./img/like.svg");
+}
